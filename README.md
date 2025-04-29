@@ -14,16 +14,16 @@ In this project, I focused on:
       -  Images Resized to 224x224
       -  Color channels were normalized with the means [0.485, 0.456, 0.406] and for the standard deviations [0.229, 0.224, 0.225]
       -  Random flips and rotation were applied on the validation set
-  - JSON was imported to process the mapping of the category names and lavels
+  - JSON was imported to process the mapping of the category names and lEvels
  
   
 - Building and training:
   - Used VGG, a torchvission model, as it was the simplest to use for an image classification task
   - New untrained network was built using ReLU activations and dropout
-  - The classifier laters were trained using backpropagation based off VGG16
+  - The classifier layers were trained using backpropagation based off VGG16
   - Loss and accuracy was tracked to check that the model was being trained and not falling prey to over-training or under-training
 
-- Classifier was ran for 10 epochs, small enough to test and run on limited resources
+- Classifier ran for 10 epochs, small enough to test and run on limited resources
 
 - Model was saved, and rebuilt later on in the Jupyter Notebook
 
